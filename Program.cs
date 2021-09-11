@@ -6,7 +6,10 @@ namespace Emerytura
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Podaj swoje imię i nazwisko: ");
+            string nazwa = Console.ReadLine();
+            Console.WriteLine("Witaj " + nazwa + "!");
+
         }
     }
 }
